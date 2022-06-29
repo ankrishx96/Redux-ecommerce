@@ -1,0 +1,32 @@
+.navbar {
+  backdrop-filter: blur(16px) !important;
+  background-color: hsla(0, 0%, 100%, 0.8) !important;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-weight: 500;
+}
+
+.cardanim{
+    transition: ease .3s;
+}
+
+.cardanim:hover{
+    transform: translateY(-15px);
+    transition: ease .3s;
+}
+
+.main-img{
+    padding: 20%;
+}
+
+.img {
+   width: 200px;
+    height: 220px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-repeat: no-repeat; background-size: cover;
+}
